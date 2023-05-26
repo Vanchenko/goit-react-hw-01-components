@@ -1,5 +1,4 @@
 import React from "react";
-
 import { Profile } from "./Profile/Profile";
 import { Statistics } from "./Statistics/Statistics";
 import { FriendList } from "./FriendList/Friendlist";
@@ -9,8 +8,6 @@ import data from './Statistics/data';
 import friends from './FriendList/friends.json'
 import transactions from './TransactionHistory/transactions.json'
 
-
-console.log(data);
 export const App = () => {
   return (
     <>
